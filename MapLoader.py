@@ -13,5 +13,7 @@ base_path = os.path.dirname(__name__)
 Dict_Path = os.path.abspath(os.path.join(base_path, 'res/helper.json'))
 
 char_map = json.load(codecs.open(Dict_Path, "r", "utf-8"))
-NUM_DICT = char_map["num_dictionary"]
-ETB_NUM_CON = char_map["ETB_NUM_CON"]
+NUM_DICT_LEFT = char_map["num_dict_left"]
+NUM_DICT_RIGHT = char_map["num_dict_right"]
+ETB_NUM_CON = char_map["etb_num"]
+POSITONAL_DICT = char_map["positional_dict"]
