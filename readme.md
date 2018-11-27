@@ -1,6 +1,6 @@
 Rupantor 
 
-A Python Utility Library for Converting English Formatted Text into Bangla.
+A Python Utility for Converting English Formatted Text into Bangla.
 
 
 ### Currently Covered
