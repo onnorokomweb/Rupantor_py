@@ -102,7 +102,7 @@ class Rupantor:
         pass
 
     @staticmethod
-    def english_to_bangla_numericals(token):
+    def ETB_Words(token):
         numeric_conversion = NumericConversion()
         bn_token = numeric_conversion.ETB(token)
         bn_left, bn_right_trans = numeric_conversion.translate_right(bn_token)
@@ -112,3 +112,8 @@ class Rupantor:
 
         total_conversion = "{}{}".format(be_left_trans, bn_right_trans)
         return total_conversion
+
+    @staticmethod
+    def ETB_Numericals(token):
+        numeric_conversion = NumericConversion()
+        return numeric_conversion.ETB(token)
